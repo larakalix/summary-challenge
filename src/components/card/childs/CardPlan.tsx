@@ -15,9 +15,9 @@ export const CardPlan = () => {
 
     return (
         <section className="relative px-12">
-            <div className="flex items-center justify-between w-full rounded-xl px-4 py-6 bg-[#f8f9fe]">
+            <div className="flex flex-col md:flex-row items-center justify-between w-full rounded-xl px-4 py-6 bg-[#f8f9fe]">
                 <div>
-                    <div className="flex">
+                    <div className="flex flex-col md:flex-row">
                         <img src={IconMusic} alt="Plan choice" />
 
                         <div className="ml-4">
@@ -34,7 +34,7 @@ export const CardPlan = () => {
                 </div>
                 <div>
                     <button
-                        className="font-heebo font-bold text-[0.9rem] text-button-purple hover:text-button-hover-purple"
+                        className="mt-5 md:mt-0 font-heebo font-bold text-[0.9rem] text-button-purple hover:text-button-hover-purple"
                         onClick={() => setShow(!show)}
                     >
                         Change
