@@ -15,7 +15,7 @@ module.exports = {
             },
         },
         fontFamily: {
-            heebo: ["Heebos", "sans-serif"],
+            heebo: ["Red Hat Display", "sans-serif"],
         },
     },
     plugins: [],
